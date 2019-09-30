@@ -19,5 +19,6 @@ https://res.cloudinary.com/dzwnhcpep/image/upload/v1569846291/Oculus/section6_3.
 
 
 LOGO:
-https://res.cloudinary.com/dzwnhcpep/image/upload/v1569847130/Oculus/transparent_logo.jpg
-https://res.cloudinary.com/dzwnhcpep/image/upload/v1569847207/Oculus/transparent_logo_header.jpg
+https://res.cloudinary.com/cdacs/image/upload/v1569858215/occulus-white_gypm5w.png
+https://res.cloudinary.com/cdacs/image/upload/v1569858215/occulus2-white_dgnz5u.png
+https://res.cloudinary.com/cdacs/image/upload/v1569858555/occulus-white-header_ksfdmh.jpg
