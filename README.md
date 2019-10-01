@@ -1,6 +1,6 @@
 # capstone-project
-Oculus Website for Capstone Project - Happiness Balogun &amp; Chukwudalu Ayika
 
+Oculus Website for Capstone Project - Happiness Balogun &amp; Chukwudalu Ayika
 
 ASSETS:
 https://res.cloudinary.com/dzwnhcpep/image/upload/v1569846267/Oculus/header_left.jpg
@@ -17,7 +17,6 @@ https://res.cloudinary.com/dzwnhcpep/image/upload/v1569846286/Oculus/setion6_1.p
 https://res.cloudinary.com/dzwnhcpep/image/upload/v1569846287/Oculus/section6_2.png
 https://res.cloudinary.com/dzwnhcpep/image/upload/v1569846291/Oculus/section6_3.png
 
-
-LOGO:
-https://res.cloudinary.com/dzwnhcpep/image/upload/v1569847130/Oculus/transparent_logo.jpg
-https://res.cloudinary.com/dzwnhcpep/image/upload/v1569847207/Oculus/transparent_logo_header.jpg
+LOGO:https://res.cloudinary.com/cdacs/image/upload/v1569858215/occulus-white_gypm5w.png
+https://res.cloudinary.com/cdacs/image/upload/v1569858215/occulus2-white_dgnz5u.png
+https://res.cloudinary.com/cdacs/image/upload/v1569858555/occulus-white-header_ksfdmh.jpg
