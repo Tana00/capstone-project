@@ -19,8 +19,16 @@
 }
 .nav-item {
   margin: 0 1.5em 0 0;
+  font-size: 17px;
+}
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
   color: white !important;
-  font-size: 15px;
+  font-weight: 600;
+}
+#navlinks:hover {
+  color: #6f7879 !important;
 }
 .dropdown-menu {
   display: none;
@@ -39,7 +47,7 @@
   display: none;
 }
 .mr-auto {
-  margin-right: 9em !important;
+  margin-right: 6em !important;
 }
 .bg-light {
   background-color: transparent;
@@ -143,6 +151,9 @@ h1 {
   background-color: #007bff;
   color: white;
 }
+#occulus-a:hover {
+  background-color: #148aff;
+}
 .container {
   max-width: 95%;
 }
@@ -153,13 +164,14 @@ h1 {
   padding: 1em 5em;
 }
 .cardtext h2 {
-  font-size: 40px;
+  font-size: 38px;
   font-weight: 700;
   line-height: 50px;
 }
 .paragraph {
   display: inline-block;
-  font-size: 25px;
+  font-size: 18px;
+  font-weight: 500;
 }
 .card-text1 {
   max-width: 800px;
@@ -182,7 +194,7 @@ h1 {
 .card-text1 h6 {
   display: inline-block;
   margin-left: 10px;
-  font-size: 1.3em;
+  font-size: 1em;
   font-weight: 400;
 }
 .icon {
@@ -217,21 +229,44 @@ h1 {
   overflow: hidden;
   vertical-align: middle;
 }
+#cont1:hover {
+  background-color: #148aff;
+  border: 2px solid #148aff;
+}
+.card-title {
+  color: #c8c7c6;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 0.3em !important;
+}
+.card-text {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 0.5em !important;
+  line-height: 33px;
+}
+.card-t {
+  top: 22em;
+  left: 0.5em;
+}
+/* [1] The container */
+.img-hover-zoom {
+  overflow: hidden;
+  border-radius: 0 !important;
+}
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform 0.8s ease-in-out;
+}
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.1);
+}
 #third {
   padding: 10%;
 }
-/* .col-6 > h2 {
-  font-size: 60px;
-  line-height: 62px;
-  letter-spacing: -0.5px;
-  font-weight: 700;
-  text-align: left;
-  align-items: center;
-} */
 .card {
-  /* min-height: 550px; */
   background-position: center 8px !important;
-  /* padding: 24px 32px; */
 }
 #text-fluid {
   top: -15em;
@@ -241,12 +276,31 @@ h1 {
   line-height: 62px;
   letter-spacing: -0.5px;
 }
-/* h3 {
-  margin: 4em auto;
-} */
 .c3 {
   margin-top: 1.2em;
 }
 .col-sm-6 {
   padding-right: 6px !important;
+}
+#learn-more {
+  text-align: center;
+}
+.learn-more {
+  color: #1574d4;
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 0.5em;
+}
+#icon-4 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: transparent;
+  border: 2px solid #565657;
+  display: inline-block;
+}
+#icon-4:hover {
+  background: #148aff;
+  border: 2px solid #148aff;
+  transition: 0.6s ease-in-out;
 }
