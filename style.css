@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #f5f5f5;
+}
 .first {
   background: #1c1e20;
   color: white;
@@ -48,6 +51,12 @@
 }
 .mr-auto {
   margin-right: 6em !important;
+}
+.mt-5,
+.mb-5,
+.my-5 {
+  margin-top: 4rem !important;
+  margin-bottom: 4rem !important;
 }
 .bg-light {
   background-color: transparent;
@@ -155,7 +164,7 @@ h1 {
   background-color: #148aff;
 }
 .container {
-  max-width: 95%;
+  max-width: 90%;
 }
 .cardtext {
   margin: 1.5em auto;
@@ -242,7 +251,7 @@ h1 {
 .card-text {
   font-size: 28px;
   font-weight: 700;
-  margin-bottom: 0.5em !important;
+  margin-bottom: 0.9em !important;
   line-height: 33px;
 }
 .card-t {
@@ -260,7 +269,7 @@ h1 {
 }
 /* [3] Finally, transforming the image when container gets hovered */
 .img-hover-zoom:hover img {
-  transform: scale(1.1);
+  transform: scale(1.18);
 }
 #third {
   padding: 10%;
@@ -303,4 +312,157 @@ h1 {
   background: #148aff;
   border: 2px solid #148aff;
   transition: 0.6s ease-in-out;
+}
+.span1 {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0.5em;
+}
+.svg1:hover {
+  background: #148aff;
+  border-color: #148aff;
+  transition: 0.6s ease-in-out;
+}
+.svg1 {
+  fill: #fff;
+}
+.svg1 {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+.svg1 {
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.33s ease-in;
+}
+.svg2 {
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: block;
+  height: 42px;
+  padding: 12px;
+  width: 42px;
+}
+polygon {
+  fill: #fff;
+}
+.text-center h2 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 62px;
+  margin-top: 3.5em;
+}
+#section-5 {
+  background: #e2e2e2;
+}
+#section-5 h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 0.5rem;
+  color: #1c1e20;
+}
+#section-5 p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #777879;
+  font-weight: 500;
+}
+.cardbody {
+  margin: 4.5em 2em;
+}
+input[type="text"] {
+  background: transparent;
+  border: 2px solid #999;
+  border-radius: 0;
+  padding: 4px 8px;
+  box-sizing: border-box;
+  color: #323436;
+  display: block;
+  font-family: BasisGrotesquePro, sans-serif;
+  font-size: 15px;
+  height: 44px;
+  line-height: 24px;
+  transition: color 250ms, border-color 250ms;
+  width: 70%;
+}
+input:focus {
+  border-color: #777879;
+  color: #1c1e20;
+  outline: none;
+  transition: none;
+}
+.input-icons i {
+  position: absolute;
+}
+.input-icons {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.icn {
+  padding: 0.85em 0 0 0;
+  color: #a5a6a7;
+  min-width: 50px;
+  text-align: right;
+  left: 23em;
+  font-size: 1em;
+}
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #1c1e20;
+  margin-bottom: 2em;
+}
+.section7 h6 {
+  margin-bottom: 1.1rem;
+  font-size: 15px;
+  font-weight: 700;
+}
+.section7 p {
+  color: #1c1e20;
+  text-decoration: none;
+  font-weight: 700;
+}
+/* .section7 p:hover {
+  text-decoration: none !important;
+} */
+.section7 span {
+  color: #777879;
+  margin-top: 8px;
+  font-weight: 500;
+}
+.section7 .card-body {
+  margin-top: -1em;
+  padding: 1.8rem 0 0;
+}
+.section7 .card {
+  border: none;
+  background-color: #f5f5f5;
+}
+.section8 {
+  color: #777879;
+  line-height: 24px;
+  /* border-top: 1px solid #d9d9d9; */
+  padding-left: 72px;
+  padding-right: 72px;
+  max-width: 1300px;
+  margin: 0 auto;
+  font-weight: 400;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  font-size: 13px;
+}
+.section8_1 {
+  margin-bottom: 24px;
+  margin-top: 24px;
+  /* color: #777879; */
 }
