@@ -39,15 +39,20 @@ body {
 .dropdown:hover > .dropdown-menu {
   display: flex;
   justify-content: space-around;
-  width: 30em;
+  width: 100em;
   height: 4em;
   position: absolute;
   background: white;
   color: black;
   top: 150%;
+  left: -50em;
 }
 .dropdown-toggle::after {
   display: none;
+}
+.dropdown-item {
+  margin: 0 -160em 0 0;
+  padding: 0.65rem 1.5rem;
 }
 .mr-auto {
   margin-right: 6em !important;
@@ -409,13 +414,14 @@ input:focus {
   text-align: right;
   left: 23em;
   font-size: 1em;
+  cursor: pointer;
 }
 .input-field {
   width: 100%;
   padding: 10px;
   outline: none;
 }
-h1 {
+.h1 {
   font-size: 40px;
   font-weight: 700;
   line-height: 44px;
@@ -432,9 +438,6 @@ h1 {
   text-decoration: none;
   font-weight: 700;
 }
-/* .section7 p:hover {
-  text-decoration: none !important;
-} */
 .section7 span {
   color: #777879;
   margin-top: 8px;
@@ -443,6 +446,9 @@ h1 {
 .section7 .card-body {
   margin-top: -1em;
   padding: 1.8rem 0 0;
+}
+.card-body a:hover {
+  text-decoration: none;
 }
 .section7 .card {
   border: none;
@@ -462,13 +468,18 @@ h1 {
   font-size: 13px;
 }
 .section8_1 {
-  margin-bottom: 24px;
-  margin-top: 24px;
+  margin-bottom: 30px;
+  margin-top: 54px;
   /* color: #777879; */
+}
+.section8_1 p {
+  margin-bottom: 0;
 }
 footer {
   background: #1c1e20;
   height: auto;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 .flex-container {
   display: flex;
@@ -480,13 +491,16 @@ footer {
 .flex-items a {
   color: #a4a5a6 !important;
   font-size: 15px;
+  font-weight: 500;
   line-height: 20px;
 }
 .flex-items a:hover {
   color: #148aff !important;
+  text-decoration: none;
 }
 #first-flex-item {
   color: #fff !important;
+  cursor: text;
 }
 #hr {
   background-color: #323436;
@@ -499,6 +513,7 @@ footer p {
 }
 #flex-items-end p {
   font-size: 13px;
+  font-weight: 700;
   line-height: 22px;
   color: #fff !important;
 }
@@ -506,6 +521,9 @@ footer p {
   font-size: 13px;
   line-height: 22px;
   color: #148aff !important;
+}
+#flex-items-end a:hover {
+  color: #565657 !important;
 }
 .spn {
   position: relative;
@@ -518,7 +536,7 @@ footer p {
   height: 3.5em;
   width: 18em;
 }
-input::placeholder {
+.frm input::placeholder {
   color: white !important;
 }
 #news-letter {
@@ -536,27 +554,99 @@ input::placeholder {
 #social-media i:hover {
   color: white !important;
 }
+.message {
+  background-image: url(images/icons.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: -100px -19741px;
+}
 .icns {
   position: relative;
   top: -3em;
   left: 12em;
 }
 #container {
-  padding: 3em 0 0 5em;
+  padding: 2em 0 0 2em !important;
 }
 .last {
+  display: flex;
   height: 5em;
   color: white;
+  margin: 2em 1em 0 2em;
 }
 .last .last1 {
   background-image: url(images/icons.png);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: 0 0;
-  float: left;
+  /* float: left; */
   height: 28px;
   margin-right: 24px;
   margin-top: 2px;
   width: 161px;
   color: white;
+}
+.last1 {
+  display: inline-block;
+}
+.last2 {
+  display: inline-block;
+}
+#final {
+  position: relative;
+  left: 38em;
+  float: right;
+}
+#final a {
+  margin: 0 0.8em;
+  color: #a4a5a6;
+}
+#final a:hover {
+  color: white;
+  text-decoration: none;
+}
+.spn img {
+  margin-left: 1.5em;
+}
+#country select {
+  background-color: #f5f5f5;
+  color: #333333;
+}
+#country select {
+  border: none;
+  font-size: 13px;
+  height: 30px;
+  padding: 0 32px 0 0;
+}
+.select {
+  -webkit-appearance: none;
+  background-image: url(images/up&down_angle_icon.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 42px auto;
+  /*   border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+  line-height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+  transition: color 250ms, border-color 250ms;
+  /*   white-space: nowrap;
+  width: 100%; */
+}
+.section8_1 span {
+  color: #777879;
+  margin-right: 6px;
+  font-size: 13px;
+}
+.pr {
+  margin-top: 0.7em;
+}
+select:focus {
+  border: none !important;
+  border-color: transparent !important;
+}
+#country:focus {
+  border: none !important;
+  border-color: transparent !important;
 }
