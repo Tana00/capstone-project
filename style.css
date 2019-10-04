@@ -6,7 +6,7 @@
 body {
   background-color: #f5f5f5;
 }
-.first {
+.first-section {
   background: #1c1e20;
   color: white;
   height: 120vh;
@@ -83,6 +83,7 @@ body {
   height: 24px;
   width: 24px;
   margin-left: 1em;
+  cursor: pointer;
 }
 .btn-outline-success {
   color: white;
@@ -117,10 +118,10 @@ body {
   right: -13em;
   overflow: hidden;
 }
-.header div {
+/* .header div {
   align-items: flex-start;
   color: white;
-}
+} */
 #svg-img {
   margin: 0 auto;
   max-width: 700px;
@@ -230,7 +231,7 @@ h1 {
   font-size: 0.7em;
   padding: 0 0.9em 6em 0.9em;
 }
-.basisChevronCircleRight {
+/* .basisChevronCircleRight {
   background-image: url("images/icons.png");
   background-repeat: no-repeat;
   background-size: auto;
@@ -242,7 +243,7 @@ h1 {
   image-rendering: crisp-edges;
   overflow: hidden;
   vertical-align: middle;
-}
+} */
 #cont1:hover {
   background-color: #148aff;
   border: 2px solid #148aff;
@@ -290,7 +291,7 @@ h1 {
   line-height: 62px;
   letter-spacing: -0.5px;
 }
-.c3 {
+.column3 {
   margin-top: 1.2em;
 }
 .col-sm-6 {
@@ -544,7 +545,6 @@ footer p {
   font-size: 14px !important;
   line-height: 24px !important;
   font-weight: 600;
-  /* padding-bottom: 8px; */
 }
 #social-media i {
   font-size: 24px;
@@ -579,7 +579,6 @@ footer p {
   background-repeat: no-repeat;
   background-size: auto;
   background-position: 0 0;
-  /* float: left; */
   height: 28px;
   margin-right: 24px;
   margin-top: 2px;
@@ -624,15 +623,7 @@ footer p {
   background-position: right;
   background-repeat: no-repeat;
   background-size: 42px auto;
-  /*   border-radius: 4px;
-  box-sizing: border-box;
-  display: block;
-  line-height: 24px;
-  overflow: hidden;
-  text-overflow: ellipsis; */
   transition: color 250ms, border-color 250ms;
-  /*   white-space: nowrap;
-  width: 100%; */
 }
 .section8_1 span {
   color: #777879;
@@ -649,4 +640,62 @@ select:focus {
 #country:focus {
   border: none !important;
   border-color: transparent !important;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  body {
+    width: 250%;
+  }
+  .header-img {
+    max-width: 450px;
+    position: relative;
+  }
+  .left {
+    left: -10.5em;
+  }
+  .right {
+    right: -8em;
+    overflow: hidden;
+  }
+  .header {
+    margin-top: 8em;
+  }
+  #svg-img {
+    max-width: 700px;
+    top: -20em;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  #hero-content {
+    max-width: 750px;
+    top: -13em;
+  }
+  .card-text1 {
+    left: 27em;
+    top: 2em;
+  }
+  .card-text1 h2 {
+    font-size: 25px;
+    line-height: 24px;
+  }
+  #occulus-a {
+    font-size: 14px;
+    padding: 12px 40px;
+  }
+  .card11 {
+    margin-bottom: 18em;
+  }
+  .column3 {
+    margin-top: -12em;
+  }
+  .card-t {
+    top: 32em;
+    left: 2em;
+  }
+  .text-center h2 {
+    font-size: 50px;
+    margin-top: 1.6em;
+  }
 }
